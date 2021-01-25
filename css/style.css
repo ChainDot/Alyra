@@ -100,7 +100,18 @@
   position: relative;
 }
 
+.mainContentAbout{
+  height: 750px;
+  background-color: var(--blue-color);
+  color: #fff;
+  position: relative;
+}
+
 .mainContent h1{
+  font-size: 30px;
+}
+
+.mainContentAbout h1{
   font-size: 30px;
 }
 
@@ -108,7 +119,17 @@
   margin: 20px 0;
 }
 
+.mainContentAbout p{
+  margin: 20px 0;
+}
+
 .mainContent .grid{
+  grid-template-columns: 55% 45%;
+  gap: 30px;
+  overflow: visible;
+}
+
+.mainContentAbout .grid{
   grid-template-columns: 55% 45%;
   gap: 30px;
   overflow: visible;
@@ -143,7 +164,6 @@
 
 
 .photoIndex{
-  
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
 }
 
@@ -309,8 +329,7 @@ max-height: 250px;
   }
 
   .grid {
-    display: grid;
-    
+    display: grid; 
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -414,7 +433,6 @@ max-height: 250px;
   }
 
   
-
   .btn-primary{
     margin-top: 10px;
     width:150px;
@@ -538,7 +556,6 @@ max-height: 250px;
 
   .aboutContentForm{
     position: relative;
-    top: 60px;
     height: 580px;
     width: 400px;
     padding: 0;
@@ -547,7 +564,7 @@ max-height: 250px;
 
   .aboutContentForm2{
     position: relative;
-    top: 60px;
+    top: 90px;
     height: 580px;
     width: 100%;
     padding: 0;
@@ -561,7 +578,6 @@ max-height: 250px;
     width: 100%;
   background-color: #fff;
   color: var(--blue-color);
-  
   }
 
 
@@ -600,4 +616,13 @@ max-height: 250px;
   .contactContainer{
     height: 600px;
   
+  }
+
+  .sol {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .textSecondary{
+    padding: 0 20px;
   }
